@@ -77,4 +77,3 @@ crashlytics-build.properties
 # MacOS
 .DS_Store
 **/.DS_Store
->>>>>>> 37491ae (staggered adapter sample)
