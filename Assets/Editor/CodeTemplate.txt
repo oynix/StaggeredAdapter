@@ -1,0 +1,39 @@
+using UnityEngine;
+using UnityEngine.UI;
+__Using__
+
+namespace __NameSpace__
+{
+    public partial class __ClassName__
+    {
+        // public GameObject GameObject;
+        // public Transform Root;
+        
+__Components__
+
+        public static __ClassName__ Get(GameObject g)
+        {
+            var p = new __ClassName__();
+            p.Bind(g.transform);
+            return p;
+        }
+        
+        public static __ClassName__ Get(Transform t)
+        {
+            var p = new __ClassName__();
+            p.Bind(t);
+            return p;
+        }
+
+        private __ClassName__()
+        {
+        }
+        
+        private void Bind(Transform root)
+        {
+
+__FindComponents__
+        }
+        
+    }
+}
